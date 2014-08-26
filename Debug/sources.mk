@@ -23,6 +23,7 @@ C_UPPER_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+obj/DebugDoubleLib/ODE_Tut_10/build/ODE_Tut_10 \
 obj/Debug \
 . \
 

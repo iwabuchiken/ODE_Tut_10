@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS :=
+LIBS := -ldrawstuffd -lode_doubled -lopengl32 -lglu32 -luser32 -lwinmm -lgdi32
 

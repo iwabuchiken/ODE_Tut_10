@@ -1,0 +1,65 @@
+16:55:25 **** Incremental Build of configuration Debug for project ODE_Tut_10 ****
+make all 
+Building target: ODE_Tut_10.exe
+Invoking: MinGW C++ Linker
+g++ -L"C:\ode-0.11.1\lib\DebugDoubleLib" -o "ODE_Tut_10.exe"  ./main.o   -ldrawstuffd -lode_doubled -lopengl32 -lglu32
+C:\ode-0.11.1\lib\DebugDoubleLib/libdrawstuffd.a(windows.o): In function `renderingThread':
+C:/ode-0.11.1/drawstuff/src/windows.cpp:150: undefined reference to `SwapBuffers@4'
+C:\ode-0.11.1\lib\DebugDoubleLib/libdrawstuffd.a(windows.o): In function `Z17dsPlatformSimLoopiiP11dsFunctionsi':
+C:/ode-0.11.1/drawstuff/src/windows.cpp:412: undefined reference to `ChoosePixelFormat@8'
+C:/ode-0.11.1/drawstuff/src/windows.cpp:416: undefined reference to `SetPixelFormat@12'
+C:\ode-0.11.1\lib\DebugDoubleLib/libdrawstuffd.a(windows.o): In function `dsElapsedTime':
+C:/ode-0.11.1/drawstuff/src/windows.cpp:479: undefined reference to `timeGetTime@0'
+collect2.exe: error: ld returned 1 exit status
+makefile:46: recipe for target 'ODE_Tut_10.exe' failed
+make: *** [ODE_Tut_10.exe] Error 1
+
+16:55:26 Build Finished (took 1s.140ms)
+
+[add: user32]
+16:56:17 **** Incremental Build of configuration Debug for project ODE_Tut_10 ****
+make all 
+Building target: ODE_Tut_10.exe
+Invoking: MinGW C++ Linker
+g++ -L"C:\ode-0.11.1\lib\DebugDoubleLib" -o "ODE_Tut_10.exe"  ./main.o   -ldrawstuffd -lode_doubled -lopengl32 -lglu32 -luser32
+C:\ode-0.11.1\lib\DebugDoubleLib/libdrawstuffd.a(windows.o): In function `renderingThread':
+C:/ode-0.11.1/drawstuff/src/windows.cpp:150: undefined reference to `SwapBuffers@4'
+C:\ode-0.11.1\lib\DebugDoubleLib/libdrawstuffd.a(windows.o): In function `Z17dsPlatformSimLoopiiP11dsFunctionsi':
+C:/ode-0.11.1/drawstuff/src/windows.cpp:412: undefined reference to `ChoosePixelFormat@8'
+C:/ode-0.11.1/drawstuff/src/windows.cpp:416: undefined reference to `SetPixelFormat@12'
+C:\ode-0.11.1\lib\DebugDoubleLib/libdrawstuffd.a(windows.o): In function `dsElapsedTime':
+C:/ode-0.11.1/drawstuff/src/windows.cpp:479: undefined reference to `timeGetTime@0'
+collect2.exe: error: ld returned 1 exit status
+makefile:46: recipe for target 'ODE_Tut_10.exe' failed
+make: *** [ODE_Tut_10.exe] Error 1
+
+16:56:18 Build Finished (took 1s.25ms)
+
+[add: winmm]
+16:57:15 **** Incremental Build of configuration Debug for project ODE_Tut_10 ****
+make all 
+Building target: ODE_Tut_10.exe
+Invoking: MinGW C++ Linker
+g++ -L"C:\ode-0.11.1\lib\DebugDoubleLib" -o "ODE_Tut_10.exe"  ./main.o   -ldrawstuffd -lode_doubled -lopengl32 -lglu32 -luser32 -lwinmm
+C:\ode-0.11.1\lib\DebugDoubleLib/libdrawstuffd.a(windows.o): In function `renderingThread':
+C:/ode-0.11.1/drawstuff/src/windows.cpp:150: undefined reference to `SwapBuffers@4'
+C:\ode-0.11.1\lib\DebugDoubleLib/libdrawstuffd.a(windows.o): In function `Z17dsPlatformSimLoopiiP11dsFunctionsi':
+C:/ode-0.11.1/drawstuff/src/windows.cpp:412: undefined reference to `ChoosePixelFormat@8'
+C:/ode-0.11.1/drawstuff/src/windows.cpp:416: undefined reference to `SetPixelFormat@12'
+collect2.exe: error: ld returned 1 exit status
+makefile:46: recipe for target 'ODE_Tut_10.exe' failed
+make: *** [ODE_Tut_10.exe] Error 1
+
+16:57:17 Build Finished (took 1s.279ms)
+
+[add: gdi32]
+16:57:58 **** Incremental Build of configuration Debug for project ODE_Tut_10 ****
+make all 
+Building target: ODE_Tut_10.exe
+Invoking: MinGW C++ Linker
+g++ -L"C:\ode-0.11.1\lib\DebugDoubleLib" -o "ODE_Tut_10.exe"  ./main.o   -ldrawstuffd -lode_doubled -lopengl32 -lglu32 -luser32 -lwinmm -lgdi32
+Finished building target: ODE_Tut_10.exe
+ 
+
+16:57:59 Build Finished (took 1s.275ms)
+

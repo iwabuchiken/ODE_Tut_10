@@ -8,6 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include obj/DebugDoubleLib/ODE_Tut_10/build/ODE_Tut_10/subdir.mk
 -include obj/Debug/subdir.mk
 -include subdir.mk
 -include objects.mk
@@ -44,7 +45,7 @@ all: ODE_Tut_10.exe
 ODE_Tut_10.exe: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MinGW C++ Linker'
-	g++  -o "ODE_Tut_10.exe" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L"C:\ode-0.11.1\lib\DebugDoubleLib" -o "ODE_Tut_10.exe" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
