@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1409032337 source:c:\ode-0.11.1\build\ode_tut_10\main.cpp
+	<iostream>
+	<ode/ode.h>
+	<drawstuff/drawstuff.h>
+	"texturepath.h"
+
+1408972631 c:\ode-0.11.1\build\ode_tut_10\texturepath.h
+
